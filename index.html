@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Managing Event</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Menu -->
+    <div class="menu target center">
+      <div class="menu-line menu-line-1"></div>
+      <div class="menu-line menu-line-2"></div>
+    </div>
+    <!-- End of Menu -->
+
+    <!-- Navbar -->
+    <nav class="navbar target">
+      <a href="#home" class="navbar-link">Home</a>
+      <a href="#categories" class="navbar-link">CATEGORIES</a>
+      <a href="#video-gallery" class="navbar-link">SOME OF OUR WORKS</a>
+      <a href="#image-gallery" class="navbar-link">EVENT MANAGERS</a>
+      <a href="#contact" class="navbar-link">CONNECT</a>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Section 1 -->
+    <div class="wrapper">
+      <section class="section-1 target center" id="home">
+        <h1 class="section-heading section-1-heading">EVENT MANAGEMENT</h1>
+       
+      </section>
+    </div>
+    <!-- End of Section 1 -->
+
+    <!-- Section 2 -->
+    <div class="wrapper">
+      <section class="section-2 target" id="categories">
+        <h1 class="section-heading">CATEGORIES</h1>
+        <div class="cards-wrapper center">
+          <div class="card">
+            <h2 class="event-name ">BIRTHDAY</h2>
+            <img src="event-1.jpg" class="card-img" />
+            <h3 class="event-price">FROM 10000 Rs.</h3>
+            <button type="button" class="card-btn" id="id-btn">PRESS FOR DETAILS</button>
+          </div>
+          <div class="card">
+            <h2 class="event-name">COLLEGE PARTY</h2>
+            <img src="event-2.jpg" class="card-img" />
+            <h3 class="event-price">FROM 25000 Rs.</h3>
+            <button type="button" class="card-btn" id="id-btn">PRESS FOR DETAILS</button>
+          </div>
+          <div class="card">
+            <h2 class="event-name">BACHELOR PARTY</h2>
+            <img src="event-3.jpg" class="card-img" />
+            <h3 class="event-price">FROM 35,000 Rs.</h3>
+            <button type="button" class="card-btn" id="id-btn">PRESS FOR DETAILS</button>
+          </div>
+         </div>
+         <div class="cards-wrapper center">
+          <div class="card">
+            <h2 class="event-name">MARRIAGE</h2>
+            <img src="event-4.jpg" class="card-img" />
+            <h3 class="event-price">FROM 200,000 Rs.</h3>
+            <button type="button" class="card-btn" id="id-btn">PRESS FOR DETAILS</button>
+          </div>
+          <div class="card">
+            <h2 class="event-name">MARRIAGE ANNIVERSORY</h2>
+            <img src="event-5.jpg" class="card-img" />
+            <h3 class="event-price">FROM 45,000 Rs.</h3>
+            <button type="button" class="card-btn" id="id-btn">PRESS FOR DETAILS</button>
+          </div>
+          <div class="card">
+            <h2 class="event-name">FESTIVALS</h2>
+            <img src="event-6.jpg" class="card-img" />
+            <h3 class="event-price">FROM 50000 Rs.</h3>
+            <button type="button" class="card-btn" id="id-btn">PRESS FOR DETAILS</button>
+          </div> 
+        </div>
+      </section>
+    </div>
+
+    <!-- End of Section 2 -->
+
+    
+    <!-- Section 3 -->
+    <div class="wrapper">
+      <section class="section-3 target" id="video-gallery">
+        <h1 class="section-heading">SOME OF OUR WORKS</h1>
+        <div class="videos-wrapper center">
+          <video src="event-video-1.mp4" muted loop class="video"></video>
+          <video src="event-video-2.mp4" muted loop class="video"></video>
+          <video src="event-video-3.mp4" muted loop class="video"></video>
+        </div>
+        <div class="videos-wrapper center">
+          <video src="event-video-4.mp4" muted loop class="video"></video>
+          <video src="event-video-5.mp4" muted loop class="video"></video>
+          <video src="event-video-6.mp4" muted loop class="video"></video>
+        </div>
+      </section>
+    </div>
+    <!-- End of Section 3 -->
+
+    <!-- Section 4 -->
+    <div class="wrapper">
+      <section class="section-4 target" id="image-gallery">
+        <h1 class="section-heading">EVENT MANAGERS</h1>
+        <div class="gallery center">
+          <div class="gallery-shelf"></div>
+          <img src="gallery-person-1.jpg" class="gallery-img-1" />
+          <img src="gallery-person-2.jpg" class="gallery-img-2" />
+          <img src="gallery-person-3.jpg" class="gallery-img-3" />
+        </div>
+          <h2 class="about1 center"><b>WHO WE ARE WHAT WE DO?</b></h2><br>
+          <div class="about center">
+          <p>Our story starts in 2010 when executives (and siblings) ‘Co-founder name 1’ and ‘Co-founder name 2’ 
+            filled in as consultants in the events business – Co-founder 1 in the late-night media outlet
+             and Co-founder 2 in the corporate events division, represent considerable authority in lighting and
+              generation. Aggressive for progress, they chose to join their particular abilities and experience
+               and set up ‘ Company Name’ events to be a new and stimulated events organization that would give
+                a remarkable support of both corporate and private customers.</p>
+          </div> 
+       
+      </section>
+    </div>
+    <!-- End of Section 4 -->
+
+    <!-- Section 5 -->
+    <div class="wrapper">
+      <section class="section-5 target" id="contact">
+        <h1 class="section-heading">CONNECT</h1>
+        <form class="contact-form">
+          <input type=hidden name="subject" value="You got a new submission"> 
+          <input type="text" class="form-input"  placeholder="Your Full Name" required/>
+          <input type="email" class="form-input" placeholder="Your Email" required/>
+          <textarea class="form-input" placeholder="Enter Message"></textarea>
+          <input class="form-btn" id="form-btn" type="submit" value="Submit" />
+          <input type="hidden" name="_next" value="thankyou.html">
+          
+        </form>
+      </section>
+    </div>
+    <!-- End of Section 5 -->
+    <script src="script.js"></script>
+    <script type="text/javascript">
+      (function(d, m){
+          var kommunicateSettings = 
+              {"appId":"3a896bc6df536bcdcb4183bcdb6b61f60","popupWidget":true,"automaticChatOpenOnNavigation":true};
+          var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+          s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+          var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+          window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  
+  </script>
+  </body>
+</html>
